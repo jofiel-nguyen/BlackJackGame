@@ -35,4 +35,4 @@ This is link: https://blackjackgame-1fx3.onrender.com/
 - https://github.com/jofiel-nguyen
 
 ## License
-This project is licensed under the [MIT License](./LINCENSE).
+This project is licensed under the [MIT License](LICENSE).
