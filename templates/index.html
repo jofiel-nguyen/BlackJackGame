@@ -8,20 +8,28 @@
     <script src="../static/blackjack.js"></script>
 </head>
 <body>
-    <h2>Dealer: <span id="dealer-sum"></span></h2>
-    <div id="dealer-cards">
-        <img id="hidden" src="/static/cards/BACK.png">
+    <!-- Video Container -->
+    <div id="video-container">
+        <!-- Video Background -->
+        <video autoplay muted loop id="video-background">
+            <source src="/static/background.mp4" type="video/mp4">
+         
+        </video>
+        
+        <!-- Content -->
+        <h2>Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="/static/cards/BACK.png">
+        </div>
+
+        <h2>You: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+      
+        <p id="results"></p>
     </div>
-
-    <h2>You: <span id="your-sum"></span></h2>
-    <div id="your-cards"></div>
-
-    <br>
-    <button id="hit">Hit</button>
-    <button id="stay">Stay</button>
-  
-    <p id="results"></p>
-    
-   
 </body>
 </html>
